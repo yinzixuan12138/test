@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate
+            android:fromDegrees="140">  <!-- 旋转的角度-->
+            <shape
+                android:shape="line" >
+
+                <stroke
+                    android:dashGap="3dp"
+                    android:dashWidth="6dp"
+                    android:width="5dp"
+                    android:color="@android:color/black"
+                    android:fromDegrees="60"
+                    android:toDegrees="40"
+                    android:pivotY="87%" />
+                <padding
+                    android:bottom="100dp"
+                    android:left="100dp"
+                    android:right="100dp"
+                    android:top="10dp" />
+                <!-- 虚线的高度 -->
+                <size android:height="1dp" />
+
+
+            </shape>
+        </rotate>
+    </item>
+</layer-list>
+
+
